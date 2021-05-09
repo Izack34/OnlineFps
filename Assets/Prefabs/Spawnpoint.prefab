@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1037761108735576215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4740888930565596314}
+  - component: {fileID: 711071282387056844}
+  m_Layer: 0
+  m_Name: Spawnpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4740888930565596314
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037761108735576215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.55, y: 0, z: 9.51}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &711071282387056844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037761108735576215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7edd3fd56168dbf409d90f029d53a25c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Healthpack: {fileID: 9004564587783582422, guid: 4acbc48bbdf5bee43b90aa8f5af721e9,
+    type: 3}
+  Pistolammo: {fileID: 6334984467633083356, guid: e0b76552091a0fa4b87df07dbdb26f40,
+    type: 3}
+  Riffleammo: {fileID: 2289064506847089402, guid: 0f825f0cbcc4030418ceccd5f22eff2f,
+    type: 3}
+  Rockets: {fileID: 4935628635804107871, guid: 110f088dc29041a4e8186301c921b44f, type: 3}
+  Pistol: {fileID: 3381295066858162360, guid: bd6bbc0bca491824b84a9774e267cd2e, type: 3}
+  Rifle: {fileID: 3518672693598433272, guid: 43ad435337b315e458fdccc141592011, type: 3}
+  RocketL: {fileID: 2483317075627614439, guid: a108ddcb1bc2c694c9bff0ee765b8ba7, type: 3}
+  spawned: {fileID: 0}
