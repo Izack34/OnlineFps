@@ -1,6 +1,6 @@
 # OnlineFps
 
-Main Menu  
+## Main Menu  
 
 ![](https://github.com/Izack34/OnlineFps/blob/main/StartMenu.PNG)
 
@@ -10,6 +10,6 @@ Unet is used to add multiplayer.
 Project could not working well because the Unet is pretty old,  
 i already working on migrate project to the MLAPI or PHOTON.  
   
-Gameplay  
+## Gameplay  
 
  ![](https://github.com/Izack34/OnlineFps/blob/main/Gameplay.PNG)
